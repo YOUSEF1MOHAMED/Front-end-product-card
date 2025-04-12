@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="product.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main class="product-card">
+    <article class="product-card__container">
+      <figure class="product-card__image-wrapper">
+        <img  class="product-card__image" />
+      </figure>
+      <section class="product-card__content">
+        <p class="product-card__category montserrat">Perfume</p>
+        <h1 class="product-card__title fraunces">Gabrielle Essence Eau De Parfum</h1>
+        <p class="product-card__description montserrat">
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="product-card__price-group">
+          <span class="product-card__price--current fraunces">$149.99</span>
+          <span class="product-card__price--original fraunces">$169.99</span>
+        </div>
+        <button class="product-card__button montserrat" aria-label="Add Gabrielle Essence Eau De Parfum to cart">
+          Add to Cart
+        </button>
+      </section>
+    </article>
+  </main>
+</body>
+
+</html>
